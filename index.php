@@ -124,7 +124,7 @@ Search for items or members.
 <li><a href="https://splotus.com/about/"  class="mdl-navigation__link"><i class="list material-icons">format_align_justify</i>Who We Are</a></li>
 
 						<li><a class=mdl-navigation__link data-target="#game" data-toggle="collapse"><i class="list material-icons">games</i>Our Games</a>
-							<span class="menu-collapse-toggle collapsed mdl-navigation__link" data-target="#game" data-toggle="collapse"><i class="icon menu-collapse-toggle-close">keyboard_arrow_up</i><i class="icon menu-collapse-toggle-default">keyboard_arrow_down</i></span><ul class="menu-collapse collapse" id="game">
+							<span class="menu-collapse-toggle collapsed mdl-navigation__link" data-target="#game" data-toggle="collapse"><i class="icon menu-collapse-toggle-close">keyboard_arrow_up</i><i class="icon menu-collapse-toggle-default">keyboard_arrow_down</i></span></li><ul class="menu-collapse collapse" id="game">
 				<li ><a class="current ctm mdl-navigation__link" href="https://splotus.com/games/current-tycoon/">Current Tycoon</a></li>
 						<li ><a class="idle-city icm mdl-navigation__link" href="https://splotus.com/games/idle-city/">Idle City</a></li>
 						<li ><a class="idle-dev igm mdl-navigation__link" href="https://splotus.com/games/idle-game-dev/">Idle Game Dev</a></li>
@@ -132,7 +132,7 @@ Search for items or members.
 						<li ><a class="sec stm mdl-navigation__link" href="https://splotus.com/games/30-second-tap/">30 Second Tap</a></li>
 						<li ><a class="jingle jtm mdl-navigation__link" href="https://splotus.com/games/jingle-tapper/">Jingle Tapper</a></li>
 						<li><a class="candy cwm mdl-navigation__link" href="https://splotus.com/games/candy-whacker/">Candy Whacker</a></li>
-						</li>
+
 					</ul>
 <li ><a onclick="contact.open()"  class="mdl-navigation__link"><i class="list material-icons">mail</i>Contact Us</a> </li>
 
@@ -478,5 +478,3 @@ function loginDialog(){
 <script src="https://splotus.com/js/moment.tz.js"></script>
 <script src="https://splotus.com/js/mdDateTimePicker.min.js"></script>
 <script src="https://splotus.com/js/dialog-login.min.js"></script>
-
-
